@@ -1,0 +1,30 @@
+{
+    "name": "cleanbackplate",
+    "version": "1.0.0",
+    "description": "boilerplate clean for typescript and typescript using express",
+    "main": "index.js",
+    "bin": {
+        "initproject": "./index.js"
+    },
+    "author": "gaiek-costa",
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^7.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gaiekdacosta/cleanbackplate"
+    },
+    "bugs": {
+        "url": "https://github.com/gaiekdacosta/cleanbackplate/issues"
+    },
+    "keywords": [
+        "express",
+        "node",
+        "typescript",
+        "template"
+    ],
+    "engines": {
+        "node": ">=10"
+    }
+}

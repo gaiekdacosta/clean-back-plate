@@ -1,0 +1,23 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon --inspect ./server.js",
+        "build": ""
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.1.4",
+        "express": "^4.18.2",
+        "nodemon": "^2.0.22",
+        "helmet": "^7.0.0",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.41.0",
+        "tsx": "^3.12.7",
+        "typescript": "^5.1.3"
+    }
+}
