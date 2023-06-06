@@ -2,7 +2,9 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
+const dotenv = require('dotenv');
 
+dotenv.config();
 const routes = require('./routes')
 
 const app = express();
@@ -17,8 +19,8 @@ app.use(() => {
     res.json({ error: err.message });
 });
 
-const port = 4569;
+const port = process.env.PORT;
 
 app.listen(port, () => {
-    console.log('\x1b[34m', `➜ Server running in port: ${port}`);
+    console.log(`➜ Server running in port: ${port}`);
 });

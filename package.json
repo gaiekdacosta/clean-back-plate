@@ -1,10 +1,10 @@
 {
     "name": "cleanbackplate",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "boilerplate clean for typescript and typescript using express",
     "main": "index.js",
     "bin": {
-        "initproject": "./index.js"
+        "initbackend": "./index.js"
     },
     "author": "gaiek-costa",
     "license": "ISC",
@@ -26,5 +26,8 @@
     ],
     "engines": {
         "node": ">=10"
+    },
+    "devDependencies": {
+        "typescript": "^5.1.3"
     }
 }

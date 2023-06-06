@@ -2,7 +2,9 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
+import dotenv from 'dotenv';
 
+dotenv.config();
 import routes from './routes'
 
 const app = express();
@@ -17,8 +19,8 @@ app.use((err: any, req: any, res: any, next: any) => {
     res.json({ error: err.message });
 });
 
-const port = 4569;
+const port = process.env.PORT;
 
 app.listen(port, () => {
-    console.log('\x1b[34m', `➜ Server running in port: ${port}`);
+    console.log(`➜ Server running in port: ${port}`);
 });
