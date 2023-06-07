@@ -66,5 +66,5 @@ cleanbackplate/ <br />
 - typescript
 
 ## Conclusion
-✅ **You now have the nowledge and resources to get started with the clean back plate boilerplate. 
+**You now have the nowledge and resources to get started with the clean back plate boilerplate. <br />
 🎉 Happy coding!**
