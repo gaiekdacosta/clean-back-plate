@@ -19,7 +19,7 @@
   ~~~
   npm install
   ~~~
-  #### 3. Create link between local package and project
+  #### 3. Create link between local package and project (run as administrator)
   ~~~
     npm link
   ~~~
